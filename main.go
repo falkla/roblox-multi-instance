@@ -25,7 +25,7 @@ func main() {
 		}
 
 		time.Sleep(2 * time.Second)
-		os.Exit(0)
+		os.Exit(1)
 	}
 
 	slog.Info("you can now launch multiple instances of roblox! press any key to exit.")
